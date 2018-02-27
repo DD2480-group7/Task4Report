@@ -1,16 +1,11 @@
 # Report for assignment 4
-
-This is a template for your report. You are free to modify it as needed.
-It is not required to use markdown for your report either, but the report
-has to be delivered in a standard, cross-platform format.
-
 ## Project
 
-Name:
+Name: Evennia
 
-URL:
+URL: https://github.com/evennia/evennia
 
-One or two sentences describing it
+Evennia is a Multi User Domain (MUD)-building system. Evennia provides a foundation for networking, behind-the-scenes administration and database usage.
 
 ## Complexity
 
