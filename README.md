@@ -10,38 +10,33 @@ Evennia is a Multi User Domain (MUD)-building system. Evennia provides a foundat
 ## Complexity
 ### Lizard output for top most complex functions
 ![Components](Top_Lizard_output.pdf)
-1. What are your results for the ten most complex functions?
-   * Did all tools/methods get the same result?
-   We did not receive the exact same results when calculating CCN by hand and using Lizard. We always got a lower CCN by hand.
-   * Are the results clear?
-   The results from Lizard are clear and easy to read.
-2. Are the functions just complex, or also long?
-   There seems to be a combination of the two. The methods we picked were very long, but also contained an abundance of conditionals.
-3. What is the purpose of the functions?
+#### Did all tools/methods get the same result?
+We did not receive the exact same results when calculating CCN by hand and using Lizard. We always got a lower CCN by hand.
+#### Are the results clear?
+The results from Lizard are clear and easy to read.
+#### Are the functions just complex, or also long?
+There seems to be a combination of the two. The methods we picked were very long, but also contained an abundance of conditionals.
+#### What is the purpose of the functions?
 See ***Documentation of High Complexity Methods*** below.
-4. Are exceptions taken into account in the given measurements?
+#### Are exceptions taken into account in the given measurements?
 We did not take exceptions into account when doing our manual calculation and in our coverage tool.
-5. Is the documentation clear w.r.t. all the possible outcomes?
+#### Is the documentation clear w.r.t. all the possible outcomes?
 See ***Documentation of High Complexity Methods*** below.
 
 ## Coverage
 
 ### Tools
 
-We focused on building our own coverage tool, but utilized https://coveralls.io/github/evennia/evennia when learning about the coverage of Evennia.
+We focused on building our own coverage tool, but utilized https://coveralls.io/github/evennia/evennia when learning about the coverage of Evennia, which gives a detailed view of what lines are covered with tests.
 
 ### DYI
 
-Show a patch that show the instrumented code in main (or the unit
-test setup), and the ten methods where branch coverage is measured.
+git diff git diff master..ad-hoc-inline
 
-The patch is probably too long to be copied here, so please add
-the git command that is used to obtain the patch instead:
+Our tool does support conditonals such as if, else if, for and while. It doesn't, however, support try and catch statements. This is, of course, a drawback. Another limitation is that finding and "labelling" branches is done manually, which makes it prone to manual error. The accuracy of the output is sufficient for this assignment, and gives us an overview of what branches were taken when the code ran.
 
-git diff ...
-
-What kinds of constructs does your tool support, and how accurate is
-its output?
+![Components](Example_branchcov_output.png)
+Here is an example of the output of our branch coverage tool taken from during the work with the assignment.
 
 ### Evaluation
 
