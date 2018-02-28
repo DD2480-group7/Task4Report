@@ -50,7 +50,7 @@ git diff ...
 
 ## Effort spent
 
-Hanna Nyblom
+#### Hanna Nyblom
 1. plenary discussions/meetings; 2
 
 2. discussions within parts of the group; 4
@@ -67,21 +67,77 @@ Hanna Nyblom
 
 8. running code? 1
 
-1. plenary discussions/meetings;
+#### Lukas Szerszen
 
-2. discussions within parts of the group;
+1. plenary discussions/meetings 2
 
-3. reading documentation;
+2. discussions within parts of the group 5
 
-4. configuration;
+3. reading documentation 2
+
+4. configuration 3
 
 5. analyzing code/output;
 
-6. writing documentation;
+6. writing documentation 4
 
-7. writing code;
+7. writing code 6
 
-8. running code?
+8. running code? 1
+
+#### Alexander Viklund
+
+1. plenary discussions/meetings 2
+
+2. discussions within parts of the group 5
+
+3. reading documentation 2
+
+4. configuration 1
+
+5. analyzing code/output 2
+
+6. writing documentation 1
+
+7. writing code 5
+
+8. running code? 1
+
+#### Alexander Manske
+
+1. plenary discussions/meetings 2
+
+2. discussions within parts of the group 3
+
+3. reading documentation 3
+
+4. configuration 5
+
+5. analyzing code/output 5
+
+6. writing documentation 3
+
+7. writing code 5
+
+8. running code 5
+
+#### Alfrida Mattisson
+
+1. plenary discussions/meetings 2
+
+2. discussions within parts of the group 5
+
+3. reading documentation 2
+
+4. configuration 2
+
+5. analyzing code/output 2
+
+6. writing documentation 5
+
+7. writing code 7
+
+8. running code 1
 
 ## Overall experience
 
