@@ -40,7 +40,8 @@ Our tool does support conditonals such as if, else if, for and while. It doesn't
 Report of old coverage:
 ![Components](Example_branchcov_output1.png)
 
-Report of new coverage: [link]
+Report of new coverage:
+![Components](Example_branchcov_output2.png)
 
 Test cases added:
 * https://github.com/DD2480-group7/evennia/pull/24/files
