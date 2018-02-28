@@ -50,7 +50,22 @@ git diff ...
 
 ## Effort spent
 
-For each team member, how much time was spent in
+Hanna Nyblom
+1. plenary discussions/meetings; 2
+
+2. discussions within parts of the group; 4
+
+3. reading documentation; 5
+
+4. configuration; 3
+
+5. analyzing code/output; 3
+
+6. writing documentation; 2
+ 
+7. writing code; 6
+
+8. running code? 1
 
 1. plenary discussions/meetings;
 
