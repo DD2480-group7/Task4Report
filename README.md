@@ -31,22 +31,22 @@ We focused on building our own coverage tool, but utilized https://coveralls.io/
 
 ### DYI
 
-git diff git diff master..ad-hoc-inline
+git diff master..ad-hoc-inline
 
 Our tool does support conditonals such as if, else if, for and while. It doesn't, however, support try and catch statements. This is, of course, a drawback. Another limitation is that finding and "labelling" branches is done manually, which makes it prone to manual error. The accuracy of the output is sufficient for this assignment, and gives us an overview of what branches were taken when the code ran.
 
-![Components](Example_branchcov_output1.png)
-Here is an example of the output of our branch coverage tool taken from during the work with the assignment.
-
 ### Evaluation
 
-Report of old coverage: [link]
+Report of old coverage:
+![Components](Example_branchcov_output1.png)
 
 Report of new coverage: [link]
 
 Test cases added:
-
-git diff ...
+* https://github.com/DD2480-group7/evennia/pull/27/files
+* https://github.com/DD2480-group7/evennia/pull/30/files
+* https://github.com/DD2480-group7/evennia/pull/24/files
+* https://github.com/DD2480-group7/evennia/pull/22/files
 
 ## Effort spent
 
