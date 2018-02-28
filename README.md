@@ -83,3 +83,5 @@ For each team member, how much time was spent in
 What are your main take-aways from this project? What did you learn?
 
 Is there something special you want to mention here?
+
+![Components](HighComplexityMethods.md)
