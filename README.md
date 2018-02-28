@@ -8,24 +8,27 @@ URL: https://github.com/evennia/evennia
 Evennia is a Multi User Domain (MUD)-building system. Evennia provides a foundation for networking, behind-the-scenes administration and database usage.
 
 ## Complexity
-
-1. What are your results for the ten most complex functions? (If ranking
-is not easily possible: ten complex functions)?
+### Lizard output for top most complex functions
+![Components](Top_Lizard_output.pdf)
+1. What are your results for the ten most complex functions?
    * Did all tools/methods get the same result?
+   We did not receive the exact same results when calculating CCN by hand and using Lizard. We always got a lower CCN by hand.
    * Are the results clear?
+   The results from Lizard are clear and easy to read.
 2. Are the functions just complex, or also long?
+   There seems to be a combination of the two. The methods we picked were very long, but also contained an abundance of conditionals.
 3. What is the purpose of the functions?
+See ***Documentation of High Complexity Methods*** below.
 4. Are exceptions taken into account in the given measurements?
+We did not take exceptions into account when doing our manual calculation and in our coverage tool.
 5. Is the documentation clear w.r.t. all the possible outcomes?
+See ***Documentation of High Complexity Methods*** below.
 
 ## Coverage
 
 ### Tools
 
-Document your experience in using a "new"/different coverage tool.
-
-How well was the tool documented? Was it possible/easy/difficult to
-integrate it with your build environment?
+We focused on building our own coverage tool, but utilized https://coveralls.io/github/evennia/evennia when learning about the coverage of Evennia.
 
 ### DYI
 
@@ -47,14 +50,6 @@ Report of old coverage: [link]
 Report of new coverage: [link]
 
 Test cases added:
-
-git diff ...
-
-## Refactoring
-
-Plan for refactoring complex code:
-
-Carried out refactoring (optional)
 
 git diff ...
 
@@ -80,9 +75,7 @@ For each team member, how much time was spent in
 
 ## Overall experience
 
-What are your main take-aways from this project? What did you learn?
-
-Is there something special you want to mention here?
+The main take away was the importance of tests and good documentation for an open source project. This time all of us struggled a lot to even be able to run the tests and the program itself on our computers. This meant that everything ended up taking at least twice the amount of time we expected. In summary, we learned that if you want to create a useful open source project it has to be easy to run.
 
 ## Documentation of High Complexity Methods
 
