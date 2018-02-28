@@ -45,6 +45,7 @@ Report of new coverage: [link]
 Test cases added:
 * https://github.com/DD2480-group7/evennia/pull/24/files
 * https://github.com/DD2480-group7/evennia/pull/27/files
+* https://github.com/DD2480-group7/evennia/pull/29
 * https://github.com/DD2480-group7/evennia/pull/30/files
 * https://github.com/DD2480-group7/evennia/pull/31/files
 
